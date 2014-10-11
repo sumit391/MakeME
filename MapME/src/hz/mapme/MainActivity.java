@@ -1,0 +1,17 @@
+package hz.mapme;
+
+import android.support.v7.app.ActionBarActivity;
+import android.app.Application;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+
+public class MainActivity extends Application {
+
+	@Override
+	public void onCreate() {
+		GlympseLiteWrapper.instance().getGlympse().start();
+
+    }
+}
