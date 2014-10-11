@@ -21,7 +21,7 @@ public void start(Context context)
  {
  if ( null == _glympse )
  {
- _glympse = LiteFactory.createGlympse(context, BASE_URL, API_KEY); 
+ _glympse = LiteFactory. createGlympse(context, BASE_URL, API_KEY); 
  _glympse. start();
  }
  }
